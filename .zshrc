@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PROMPT='%(?:%{%}➜:%{%}➜) %{$fg[cyan]%}%~ %{$fg[red]%}%B> '
 RPROMPT='$(git_prompt_info)'
+
+export PATH=$PATH:~/macbin
